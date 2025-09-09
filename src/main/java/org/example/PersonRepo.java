@@ -50,7 +50,7 @@ public class PersonRepo {
                 }
             }
 
-            return Optional.of(selectedPerson);
+            return Optional.ofNullable(selectedPerson);
     }
 
 
